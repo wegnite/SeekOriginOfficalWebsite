@@ -284,30 +284,30 @@
   "traction": {
     "name": "traction",
     "title": "Exponential Growth",
-    "subtitle": "Building the future of AI with incredible momentum",
-    "metrics": [
+    "description": "Building the future of AI with incredible momentum",
+    "items": [
       {
-        "value": "$50M+",
+        "title": "$50M+",
         "label": "Total Funding",
-        "growth": "+150% YoY",
+        "description": "+150% YoY",
         "icon": "trending"
       },
       {
-        "value": "100K+",
+        "title": "100K+",
         "label": "Active Users",
-        "growth": "+300% YoY",
+        "description": "+300% YoY",
         "icon": "users"
       },
       {
-        "value": "1M+",
+        "title": "1M+",
         "label": "API Calls Daily",
-        "growth": "+500% YoY",
+        "description": "+500% YoY",
         "icon": "zap"
       },
       {
-        "value": "50+",
+        "title": "50+",
         "label": "Countries Served",
-        "growth": "Global Reach",
+        "description": "Global Reach",
         "icon": "globe"
       }
     ]
@@ -315,101 +315,71 @@
   "products": {
     "name": "products",
     "title": "AI Solutions That Transform Industries",
-    "subtitle": "Cutting-edge tools designed for real-world impact",
-    "products": [
+    "description": "Cutting-edge tools designed for real-world impact",
+    "items": [
       {
         "title": "AI Assistant Pro",
         "description": "Advanced conversational AI that understands context and delivers intelligent responses.",
-        "features": [
-          "Multi-language support",
-          "Context-aware responses",
-          "Custom training models",
-          "Enterprise-grade security"
-        ],
+        "label": "Multi-language support with enterprise-grade security",
         "icon": "brain",
-        "color": "emerald",
-        "link": "/products/assistant"
+        "url": "/products/assistant"
       },
       {
         "title": "Vision Analytics",
         "description": "Computer vision platform that transforms visual data into actionable insights.",
-        "features": [
-          "Real-time image analysis",
-          "Object detection & tracking",
-          "Custom model training",
-          "Cloud & edge deployment"
-        ],
+        "label": "Real-time analysis with custom model training",
         "icon": "sparkles",
-        "color": "purple",
-        "link": "/products/vision"
+        "url": "/products/vision"
       },
       {
         "title": "Predictive Engine",
         "description": "Machine learning platform for accurate predictions and data-driven decisions.",
-        "features": [
-          "Time series forecasting",
-          "Anomaly detection",
-          "AutoML capabilities",
-          "Explainable AI"
-        ],
+        "label": "AutoML capabilities with explainable AI",
         "icon": "zap",
-        "color": "blue",
-        "link": "/products/predictive"
+        "url": "/products/predictive"
       }
     ]
   },
   "investors": {
     "name": "investors",
     "title": "Backed by Industry Leaders",
-    "subtitle": "Trusted and funded by the world's leading venture capital firms",
-    "investors": []
+    "description": "Trusted and funded by the world's leading venture capital firms",
+    "items": []
   },
   "team": {
     "name": "team",
     "title": "Meet Our Leadership",
-    "subtitle": "Visionaries and experts driving the AI revolution",
-    "members": [
+    "description": "Visionaries and experts driving the AI revolution",
+    "items": [
       {
-        "name": "Dr. Sarah Chen",
-        "role": "CEO & Co-founder",
-        "bio": "Former AI research lead at Google Brain. PhD in Machine Learning from Stanford. 15+ years building AI systems.",
-        "linkedin": "https://linkedin.com",
-        "twitter": "https://twitter.com"
+        "title": "Dr. Sarah Chen",
+        "label": "CEO & Co-founder",
+        "description": "Former AI research lead at Google Brain. PhD in Machine Learning from Stanford. 15+ years building AI systems."
       },
       {
-        "name": "Michael Zhang",
-        "role": "CTO & Co-founder",
-        "bio": "Ex-Principal Engineer at OpenAI. Led development of GPT models. MIT Computer Science graduate.",
-        "linkedin": "https://linkedin.com",
-        "github": "https://github.com"
+        "title": "Michael Zhang",
+        "label": "CTO & Co-founder",
+        "description": "Ex-Principal Engineer at OpenAI. Led development of GPT models. MIT Computer Science graduate."
       },
       {
-        "name": "Emily Rodriguez",
-        "role": "Chief Product Officer",
-        "bio": "Previously VP Product at Anthropic. 10+ years shipping AI products at scale. Harvard MBA.",
-        "linkedin": "https://linkedin.com",
-        "twitter": "https://twitter.com"
+        "title": "Emily Rodriguez",
+        "label": "Chief Product Officer",
+        "description": "Previously VP Product at Anthropic. 10+ years shipping AI products at scale. Harvard MBA."
       },
       {
-        "name": "James Park",
-        "role": "VP Engineering",
-        "bio": "Former Staff Engineer at Meta AI. Built recommendation systems serving billions. Carnegie Mellon CS.",
-        "linkedin": "https://linkedin.com",
-        "github": "https://github.com"
+        "title": "James Park",
+        "label": "VP Engineering",
+        "description": "Former Staff Engineer at Meta AI. Built recommendation systems serving billions. Carnegie Mellon CS."
       },
       {
-        "name": "Dr. Lisa Wang",
-        "role": "Head of Research",
-        "bio": "Published 50+ papers on deep learning. Former research scientist at DeepMind. Oxford PhD.",
-        "linkedin": "https://linkedin.com",
-        "twitter": "https://twitter.com"
+        "title": "Dr. Lisa Wang",
+        "label": "Head of Research",
+        "description": "Published 50+ papers on deep learning. Former research scientist at DeepMind. Oxford PhD."
       },
       {
-        "name": "David Kim",
-        "role": "VP Business Development",
-        "bio": "Scaled enterprise sales at Databricks from $10M to $1B ARR. Wharton MBA.",
-        "linkedin": "https://linkedin.com",
-        "twitter": "https://twitter.com"
+        "title": "David Kim",
+        "label": "VP Business Development",
+        "description": "Scaled enterprise sales at Databricks from $10M to $1B ARR. Wharton MBA."
       }
     ]
   },

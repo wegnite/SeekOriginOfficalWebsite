@@ -7,12 +7,15 @@ import Image from "next/image";
 
 interface InvestorsProps {
   section: {
-    title: string;
-    subtitle?: string;
-    investors: Array<{
-      name: string;
-      logo?: string;
+    title?: string;
+    description?: string;
+    items?: Array<{
+      title?: string;
       description?: string;
+      image?: {
+        src?: string;
+        alt?: string;
+      };
     }>;
   };
 }
@@ -23,17 +26,17 @@ export default function Investors({ section }: InvestorsProps) {
 
   // Default Silicon Valley investor logos (placeholder names)
   const defaultInvestors = [
-    { name: "Sequoia Capital", description: "Leading Silicon Valley VC" },
-    { name: "Andreessen Horowitz", description: "a16z" },
-    { name: "Y Combinator", description: "YC" },
-    { name: "Accel Partners", description: "Global VC" },
-    { name: "Kleiner Perkins", description: "Pioneer VC" },
-    { name: "Google Ventures", description: "GV" },
-    { name: "Tiger Global", description: "Growth Investor" },
-    { name: "SoftBank Vision", description: "Vision Fund" },
+    { title: "Sequoia Capital", description: "Leading Silicon Valley VC", image: undefined },
+    { title: "Andreessen Horowitz", description: "a16z", image: undefined },
+    { title: "Y Combinator", description: "YC", image: undefined },
+    { title: "Accel Partners", description: "Global VC", image: undefined },
+    { title: "Kleiner Perkins", description: "Pioneer VC", image: undefined },
+    { title: "Google Ventures", description: "GV", image: undefined },
+    { title: "Tiger Global", description: "Growth Investor", image: undefined },
+    { title: "SoftBank Vision", description: "Vision Fund", image: undefined },
   ];
 
-  const investors = section.investors?.length > 0 ? section.investors : defaultInvestors;
+  const investors = section.items?.length ? section.items : defaultInvestors;
 
   return (
     <section className="py-24 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
@@ -55,7 +58,7 @@ export default function Investors({ section }: InvestorsProps) {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto"
           >
-            {section.subtitle || "Trusted and funded by the world's leading venture capital firms and technology companies"}
+            {section.description || "Trusted and funded by the world's leading venture capital firms and technology companies"}
           </motion.p>
         </div>
 
@@ -73,10 +76,10 @@ export default function Investors({ section }: InvestorsProps) {
                 {/* Hover gradient effect */}
                 <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/0 to-teal-500/0 group-hover:from-emerald-500/5 group-hover:to-teal-500/5 transition-all duration-300" />
                 
-                {investor.logo ? (
+                {investor.image?.src ? (
                   <Image
-                    src={investor.logo}
-                    alt={investor.name}
+                    src={investor.image.src}
+                    alt={investor.image.alt || investor.title || ""}
                     width={150}
                     height={60}
                     className="max-h-12 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
@@ -84,7 +87,7 @@ export default function Investors({ section }: InvestorsProps) {
                 ) : (
                   <div className="text-center">
                     <div className="text-lg font-bold text-gray-400 dark:text-gray-500 group-hover:text-gray-900 dark:group-hover:text-white transition-colors">
-                      {investor.name}
+                      {investor.title}
                     </div>
                     {investor.description && (
                       <div className="text-xs text-gray-400 dark:text-gray-600 mt-1">

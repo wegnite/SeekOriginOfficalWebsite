@@ -5,24 +5,10 @@ import { ArrowRight, Play, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { Hero } from "@/types/blocks/hero";
 
 interface HeroModernProps {
-  hero: {
-    title: string;
-    highlight_text?: string;
-    description: string;
-    buttons?: Array<{
-      title: string;
-      url: string;
-      variant?: "default" | "outline" | "ghost";
-      icon?: string;
-    }>;
-    video_url?: string;
-    stats?: Array<{
-      value: string;
-      label: string;
-    }>;
-  };
+  hero: Hero;
 }
 
 export default function HeroModern({ hero }: HeroModernProps) {
@@ -101,14 +87,16 @@ export default function HeroModern({ hero }: HeroModernProps) {
         </motion.h1>
 
         {/* Description */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-12"
-        >
-          {hero.description}
-        </motion.p>
+        {hero.description && (
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-12"
+          >
+            {hero.description}
+          </motion.p>
+        )}
 
         {/* CTA Buttons */}
         <motion.div

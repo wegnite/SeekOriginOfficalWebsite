@@ -7,12 +7,12 @@ import { useRef } from "react";
 
 interface TractionProps {
   section: {
-    title: string;
-    subtitle?: string;
-    metrics: Array<{
-      value: string;
-      label: string;
-      growth?: string;
+    title?: string;
+    description?: string;
+    items?: Array<{
+      title?: string;
+      label?: string;
+      description?: string;
       icon?: string;
     }>;
   };
@@ -44,21 +44,21 @@ export default function Traction({ section }: TractionProps) {
               {section.title}
             </span>
           </motion.h2>
-          {section.subtitle && (
+          {section.description && (
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-xl text-gray-600 dark:text-gray-300"
             >
-              {section.subtitle}
+              {section.description}
             </motion.p>
           )}
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {section.metrics.map((metric, index) => {
-            const Icon = iconMap[metric.icon || "trending"];
+          {section.items?.map((item, index) => {
+            const Icon = iconMap[item.icon || "trending"];
             return (
               <motion.div
                 key={index}
@@ -75,20 +75,20 @@ export default function Traction({ section }: TractionProps) {
 
                   {/* Metric Value */}
                   <div className="text-4xl font-bold mb-2 bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
-                    {metric.value}
+                    {item.title}
                   </div>
 
                   {/* Label */}
                   <div className="text-gray-600 dark:text-gray-400 font-medium">
-                    {metric.label}
+                    {item.label}
                   </div>
 
                   {/* Growth indicator */}
-                  {metric.growth && (
+                  {item.description && (
                     <div className="mt-4 flex items-center gap-2">
                       <TrendingUp className="w-4 h-4 text-emerald-500" />
                       <span className="text-sm text-emerald-600 dark:text-emerald-400 font-semibold">
-                        {metric.growth}
+                        {item.description}
                       </span>
                     </div>
                   )}
