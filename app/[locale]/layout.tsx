@@ -54,9 +54,10 @@ export default async function RootLayout({
           <meta name="google-adsense-account" content={googleAdsenseCode} />
         )}
 
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/seekorigin-icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/seekorigin-icon.svg" />
 
-        {locales &&
+        {webUrl && locales &&
           locales.map((loc) => (
             <link
               key={loc}
@@ -65,7 +66,7 @@ export default async function RootLayout({
               href={`${webUrl}${loc === "en" ? "" : `/${loc}`}/`}
             />
           ))}
-        <link rel="alternate" hrefLang="x-default" href={webUrl} />
+        {webUrl && <link rel="alternate" hrefLang="x-default" href={webUrl} />}
       </head>
       <body
         className={cn(

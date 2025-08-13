@@ -50,19 +50,13 @@
   "hero": {
     "title": "Building AI Tools that Empower the World",
     "highlight_text": "Empower the World",
-    "description": "Seek Origin creates powerful, intuitive AI tools that democratize intelligence, boost productivity, and enable individuals and organizations worldwide to achieve more.",
+    "description": "Seek Origin creates powerful, intuitive AI tools that democratize intelligence,<br/>boost productivity, and enable individuals and organizations worldwide to achieve more.",
     "announcement": {
       "label": "NEW",
       "title": "🚀 Launching Global AI Solutions",
       "url": "/#solutions"
     },
     "tip": "🌍 Serving users across 50+ countries",
-    "stats": [
-      { "value": "$50M+", "label": "Funding Raised" },
-      { "value": "100K+", "label": "Active Users" },
-      { "value": "50+", "label": "Countries" },
-      { "value": "99.9%", "label": "Uptime" }
-    ],
     "buttons": [
       {
         "title": "Explore Our Tools",
@@ -86,38 +80,38 @@
     "title": "Powered by Cutting-Edge Technology",
     "items": [
       {
-        "title": "Next.js",
+        "title": "OpenAI",
         "image": {
           "src": "/imgs/logos/nextjs.svg",
-          "alt": "Next.js"
+          "alt": "OpenAI"
         }
       },
       {
-        "title": "React",
+        "title": "TensorFlow",
         "image": {
           "src": "/imgs/logos/react.svg",
-          "alt": "React"
+          "alt": "TensorFlow"
         }
       },
       {
-        "title": "TailwindCSS",
+        "title": "PyTorch",
         "image": {
           "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "TailwindCSS"
+          "alt": "PyTorch"
         }
       },
       {
-        "title": "Shadcn/UI",
+        "title": "Cloud AI",
         "image": {
           "src": "/imgs/logos/shadcn.svg",
-          "alt": "Shadcn/UI"
+          "alt": "Cloud AI"
         }
       },
       {
-        "title": "Vercel",
+        "title": "Next.js",
         "image": {
           "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
+          "alt": "Next.js"
         }
       }
     ]
@@ -156,7 +150,7 @@
     "items": [
       {
         "title": "Enhance Creativity & Innovation",
-        "description": "AI design assistants, idea generators, and content co-creators that amplify your creative potential.",
+        "description": "AI design assistants, idea generators, and content co-creators that amplify your creative potential and bring ideas to life faster.",
         "icon": "RiPaletteLine",
         "image": {
           "src": "/imgs/features/2.png"
@@ -164,7 +158,7 @@
       },
       {
         "title": "Boost Productivity & Efficiency",
-        "description": "Intelligent automation tools, smart summarization, and research assistants that help you accomplish more.",
+        "description": "Intelligent automation tools, smart summarization, and research assistants that help you accomplish more in less time.",
         "icon": "RiSpeedLine",
         "image": {
           "src": "/imgs/features/3.png"
@@ -172,7 +166,7 @@
       },
       {
         "title": "Improve Learning & Accessibility",
-        "description": "Personalized learning aids, intelligent translation, and accessibility features that break down barriers.",
+        "description": "Personalized learning aids, intelligent translation, and accessibility features that break down barriers to knowledge.",
         "icon": "RiBookOpenLine",
         "image": {
           "src": "/imgs/features/4.png"
@@ -181,9 +175,9 @@
     ]
   },
   "usage": {
-    "name": "usage",
-    "title": "How to Launch with SeekOrigin",
-    "description": "Get your AI SaaS startup running in three simple steps:",
+    "name": "approach",
+    "title": "Our Approach to Building AI Tools",
+    "description": "How we create tools that truly make a difference:",
     "image": {
       "src": "/imgs/features/1.png"
     },
@@ -191,29 +185,29 @@
     "text_align": "center",
     "items": [
       {
-        "title": "Get SeekOrigin",
-        "description": "Buy SeekOrigin with a one-time payment. Check your email for the code and documentation.",
+        "title": "Identify Universal Needs",
+        "description": "We seek out challenges where AI can make a significant, positive difference across cultures and borders.",
         "image": {
           "src": "/imgs/features/5.png"
         }
       },
       {
-        "title": "Start Your Project",
-        "description": "Read the documentation and clone the code of SeekOrigin. Start building your AI SaaS startup.",
+        "title": "Build Intuitive Solutions",
+        "description": "Transform complex AI capabilities into user-friendly, accessible web-based tools.",
         "image": {
           "src": "/imgs/features/6.png"
         }
       },
       {
-        "title": "Customize Your Project",
-        "description": "Modify the template with your data and contents. Specific AI functionality needs.",
+        "title": "Drive Tangible Value",
+        "description": "Design tools that help users enhance creativity, boost productivity, and solve complex problems.",
         "image": {
           "src": "/imgs/features/7.png"
         }
       },
       {
-        "title": "Deploy to Production",
-        "description": "Deploy your project to production with a few steps and start serving customers immediately.",
+        "title": "Measure Global Impact",
+        "description": "Continuously assess and improve our tools based on real-world outcomes and user feedback.",
         "image": {
           "src": "/imgs/features/8.png"
         }
@@ -221,195 +215,63 @@
     ]
   },
   "feature": {
-    "name": "feature",
-    "title": "Key Features of Seek Origin",
-    "description": "Everything you need to launch your AI SaaS startup quickly and efficiently.",
+    "name": "features",
+    "title": "Why Choose Seek Origin AI Tools",
+    "description": "Our commitment to democratizing AI and empowering users worldwide.",
     "items": [
       {
-        "title": "Next.js Boilerplate",
-        "description": "Production-ready Next.js templates with SEO-friendly structure and i18n support.",
-        "icon": "RiNextjsFill"
+        "title": "Cutting-Edge AI Technology",
+        "description": "Leverage the latest advancements in artificial intelligence research for robust capabilities.",
+        "icon": "RiBrainLine"
       },
       {
-        "title": "Authentication & Payments",
-        "description": "Integrated Google OAuth, one-tap login, and Stripe payment processing.",
-        "icon": "RiKey2Fill"
+        "title": "Universal Accessibility",
+        "description": "Tools designed to be accessible and usable by everyone, not just tech experts.",
+        "icon": "RiUserSmileLine"
       },
       {
-        "title": "Data Infrastructure",
-        "description": "Built-in Supabase integration for reliable and scalable data storage.",
-        "icon": "RiDatabase2Line"
+        "title": "Global Scalability",
+        "description": "Built with international users in mind, supporting multiple languages and cultural contexts.",
+        "icon": "RiEarthLine"
       },
       {
-        "title": "One-Click Deployment",
-        "description": "Seamless deployment to Vercel or Cloudflare with automated setup.",
-        "icon": "RiCloudy2Fill"
+        "title": "Data-Driven Insights",
+        "description": "Advanced analytics and predictive tools to help make better decisions.",
+        "icon": "RiLineChartLine"
       },
       {
-        "title": "Business Analytics",
-        "description": "Integrated Google Analytics and Search Console for tracking growth.",
-        "icon": "RiBarChart2Line"
+        "title": "Seamless Integration",
+        "description": "Easy-to-integrate APIs and web applications that work with your existing workflows.",
+        "icon": "RiPlugLine"
       },
       {
-        "title": "AI-Ready Infrastructure",
-        "description": "Pre-configured AI integration with built-in credits system and API sales.",
-        "icon": "RiRobot2Line"
+        "title": "Continuous Innovation",
+        "description": "Regular updates and new features based on user feedback and emerging AI capabilities.",
+        "icon": "RiLightbulbLine"
       }
     ]
   },
   "stats": {
-    "name": "stats",
+    "name": "impact",
     "label": "Global Impact",
     "title": "Making a Difference Worldwide",
-    "description": "Our AI tools are empowering users across the globe.",
-    "icon": "FaRegHeart",
+    "description": "Our tools are empowering users across the globe.",
+    "icon": "RiGlobalLine",
     "items": [
       {
-        "title": "Trusted by",
-        "label": "99+",
-        "description": "Customers"
+        "title": "Countries Served",
+        "label": "50+",
+        "description": "Global Reach"
       },
       {
-        "title": "Built in",
-        "label": "20+",
-        "description": "Components"
+        "title": "Active Users",
+        "label": "100K+",
+        "description": "Worldwide"
       },
       {
-        "title": "Ship Fast in",
-        "label": "5",
-        "description": "Minutes"
-      }
-    ]
-  },
-  "traction": {
-    "name": "traction",
-    "title": "Exponential Growth",
-    "subtitle": "Building the future of AI with incredible momentum",
-    "metrics": [
-      {
-        "value": "$50M+",
-        "label": "Total Funding",
-        "growth": "+150% YoY",
-        "icon": "trending"
-      },
-      {
-        "value": "100K+",
-        "label": "Active Users",
-        "growth": "+300% YoY",
-        "icon": "users"
-      },
-      {
-        "value": "1M+",
-        "label": "API Calls Daily",
-        "growth": "+500% YoY",
-        "icon": "zap"
-      },
-      {
-        "value": "50+",
-        "label": "Countries Served",
-        "growth": "Global Reach",
-        "icon": "globe"
-      }
-    ]
-  },
-  "products": {
-    "name": "products",
-    "title": "AI Solutions That Transform Industries",
-    "subtitle": "Cutting-edge tools designed for real-world impact",
-    "products": [
-      {
-        "title": "AI Assistant Pro",
-        "description": "Advanced conversational AI that understands context and delivers intelligent responses.",
-        "features": [
-          "Multi-language support",
-          "Context-aware responses",
-          "Custom training models",
-          "Enterprise-grade security"
-        ],
-        "icon": "brain",
-        "color": "emerald",
-        "link": "/products/assistant"
-      },
-      {
-        "title": "Vision Analytics",
-        "description": "Computer vision platform that transforms visual data into actionable insights.",
-        "features": [
-          "Real-time image analysis",
-          "Object detection & tracking",
-          "Custom model training",
-          "Cloud & edge deployment"
-        ],
-        "icon": "sparkles",
-        "color": "purple",
-        "link": "/products/vision"
-      },
-      {
-        "title": "Predictive Engine",
-        "description": "Machine learning platform for accurate predictions and data-driven decisions.",
-        "features": [
-          "Time series forecasting",
-          "Anomaly detection",
-          "AutoML capabilities",
-          "Explainable AI"
-        ],
-        "icon": "zap",
-        "color": "blue",
-        "link": "/products/predictive"
-      }
-    ]
-  },
-  "investors": {
-    "name": "investors",
-    "title": "Backed by Industry Leaders",
-    "subtitle": "Trusted and funded by the world's leading venture capital firms",
-    "investors": []
-  },
-  "team": {
-    "name": "team",
-    "title": "Meet Our Leadership",
-    "subtitle": "Visionaries and experts driving the AI revolution",
-    "members": [
-      {
-        "name": "Dr. Sarah Chen",
-        "role": "CEO & Co-founder",
-        "bio": "Former AI research lead at Google Brain. PhD in Machine Learning from Stanford. 15+ years building AI systems.",
-        "linkedin": "https://linkedin.com",
-        "twitter": "https://twitter.com"
-      },
-      {
-        "name": "Michael Zhang",
-        "role": "CTO & Co-founder",
-        "bio": "Ex-Principal Engineer at OpenAI. Led development of GPT models. MIT Computer Science graduate.",
-        "linkedin": "https://linkedin.com",
-        "github": "https://github.com"
-      },
-      {
-        "name": "Emily Rodriguez",
-        "role": "Chief Product Officer",
-        "bio": "Previously VP Product at Anthropic. 10+ years shipping AI products at scale. Harvard MBA.",
-        "linkedin": "https://linkedin.com",
-        "twitter": "https://twitter.com"
-      },
-      {
-        "name": "James Park",
-        "role": "VP Engineering",
-        "bio": "Former Staff Engineer at Meta AI. Built recommendation systems serving billions. Carnegie Mellon CS.",
-        "linkedin": "https://linkedin.com",
-        "github": "https://github.com"
-      },
-      {
-        "name": "Dr. Lisa Wang",
-        "role": "Head of Research",
-        "bio": "Published 50+ papers on deep learning. Former research scientist at DeepMind. Oxford PhD.",
-        "linkedin": "https://linkedin.com",
-        "twitter": "https://twitter.com"
-      },
-      {
-        "name": "David Kim",
-        "role": "VP Business Development",
-        "bio": "Scaled enterprise sales at Databricks from $10M to $1B ARR. Wharton MBA.",
-        "linkedin": "https://linkedin.com",
-        "twitter": "https://twitter.com"
+        "title": "Problems Solved",
+        "label": "1M+",
+        "description": "Daily"
       }
     ]
   },
@@ -418,10 +280,10 @@
     "label": "User Stories",
     "title": "How Our Tools Transform Lives",
     "description": "Real stories from users who've achieved more with Seek Origin AI tools.",
-    "icon": "GoThumbsup",
+    "icon": "RiStarLine",
     "items": [
       {
-        "title": "David Chen",
+        "title": "Sarah Chen",
         "label": "Creative Director, Singapore",
         "description": "Seek Origin's AI design tools have revolutionized our creative process. We're producing innovative concepts 3x faster while maintaining exceptional quality.",
         "image": {
@@ -429,40 +291,40 @@
         }
       },
       {
-        "title": "Rachel Kim",
-        "label": "Research Scientist, Seoul",
+        "title": "Dr. Ahmed Hassan",
+        "label": "Research Scientist, Cairo",
         "description": "The intelligent research assistant has transformed how we analyze data. Complex patterns that took weeks to identify are now discovered in hours.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
-        "title": "Marcus Thompson",
-        "label": "Educator, London",
+        "title": "Maria Rodriguez",
+        "label": "Educator, Mexico City",
         "description": "The personalized learning tools have made education accessible to all my students, regardless of their learning pace or style. It's truly democratizing education.",
         "image": {
           "src": "/imgs/users/3.png"
         }
       },
       {
-        "title": "Sofia Garcia",
-        "label": "Startup Founder, Madrid",
+        "title": "James Park",
+        "label": "Startup Founder, Seoul",
         "description": "Seek Origin's productivity tools helped us scale from 5 to 50 employees without losing efficiency. The AI automation handles repetitive tasks perfectly.",
         "image": {
           "src": "/imgs/users/4.png"
         }
       },
       {
-        "title": "James Wilson",
-        "label": "Content Creator, New York",
+        "title": "Emma Thompson",
+        "label": "Content Creator, London",
         "description": "The content co-creation tools understand context and tone perfectly. I'm creating engaging content in multiple languages, reaching global audiences.",
         "image": {
           "src": "/imgs/users/5.png"
         }
       },
       {
-        "title": "Anna Zhang",
-        "label": "Data Analyst, Shanghai",
+        "title": "Raj Patel",
+        "label": "Data Analyst, Mumbai",
         "description": "The predictive insights tools have given us a competitive edge. We're making data-driven decisions with confidence and seeing real business impact.",
         "image": {
           "src": "/imgs/users/6.png"
@@ -532,45 +394,25 @@
       },
       "url": "/"
     },
-    "copyright": "© 2025 • Hangzhou Seek Origin Intelligent Technology Co., Ltd. All rights reserved.",
+    "copyright": "© 2025 • Seek Origin (Hangzhou) Intelligent Technology Co., Ltd. All rights reserved.",
     "nav": {
       "items": [
         {
-          "title": "About",
+          "title": "Company",
           "children": [
             {
-              "title": "Features",
-              "url": "/#feature",
+              "title": "About Us",
+              "url": "/#about",
               "target": "_self"
             },
             {
-              "title": "Showcases",
-              "url": "/#showcase",
+              "title": "Our Mission",
+              "url": "/#mission",
               "target": "_self"
             },
             {
-              "title": "Pricing",
-              "url": "/#pricing",
-              "target": "_self"
-            }
-          ]
-        },
-        {
-          "title": "Resources",
-          "children": [
-            {
-              "title": "Documentation",
-              "url": "/docs",
-              "target": "_self"
-            },
-            {
-              "title": "API Reference",
-              "url": "/api",
-              "target": "_self"
-            },
-            {
-              "title": "Blog",
-              "url": "/blog",
+              "title": "Careers",
+              "url": "/careers",
               "target": "_self"
             }
           ]
@@ -591,6 +433,26 @@
             {
               "title": "For Developers",
               "url": "/#developers",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "Documentation",
+              "url": "/docs",
+              "target": "_self"
+            },
+            {
+              "title": "API Reference",
+              "url": "/api",
+              "target": "_self"
+            },
+            {
+              "title": "Blog",
+              "url": "/blog",
               "target": "_self"
             }
           ]

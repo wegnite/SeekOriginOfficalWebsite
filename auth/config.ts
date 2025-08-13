@@ -116,6 +116,7 @@ export const providerMap = providers
 
 export const authOptions: NextAuthConfig = {
   providers,
+  secret: process.env.AUTH_SECRET,
   pages: {
     signIn: "/auth/signin",
   },

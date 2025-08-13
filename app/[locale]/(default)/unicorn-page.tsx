@@ -8,8 +8,6 @@ import CTA from "@/components/blocks/cta";
 import FAQ from "@/components/blocks/faq";
 import Feature from "@/components/blocks/feature";
 import Feature1 from "@/components/blocks/feature1";
-import Feature2 from "@/components/blocks/feature2";
-import Feature3 from "@/components/blocks/feature3";
 import Testimonial from "@/components/blocks/testimonial";
 import { getLandingPage } from "@/services/page";
 
@@ -28,26 +26,10 @@ export async function generateMetadata({
   return {
     title: "Seek Origin AI - Building the Future of Artificial Intelligence",
     description: "Backed by top-tier VCs, Seek Origin is transforming industries with cutting-edge AI tools. $50M+ raised, 100K+ users, operating in 50+ countries.",
-    keywords: "AI startup, artificial intelligence, machine learning, unicorn, Silicon Valley, venture capital, Hangzhou, China",
+    keywords: "AI startup, artificial intelligence, machine learning, unicorn, Silicon Valley, venture capital",
     openGraph: {
       title: "Seek Origin AI - The Future of AI Innovation",
-      description: "Join us in building AI tools that empower the world. Backed by leading VCs, serving 100K+ users globally.",
-      type: "website",
-      url: canonicalUrl,
-      siteName: "Seek Origin AI",
-      images: [
-        {
-          url: "/seekorigin-og.png",
-          width: 1200,
-          height: 630,
-          alt: "Seek Origin AI",
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Seek Origin AI - Building the Future of AI",
-      description: "Transforming industries with cutting-edge AI tools. $50M+ raised, 100K+ users worldwide.",
+      description: "Join us in building AI tools that empower the world",
       images: ["/seekorigin-og.png"],
     },
     alternates: {
@@ -56,7 +38,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function LandingPage({
+export default async function ModernLandingPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -66,32 +48,26 @@ export default async function LandingPage({
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
-      {/* Modern Hero Section with animations */}
+      {/* Modern Hero Section */}
       {page.hero && <HeroModern hero={page.hero} />}
       
-      {/* Traction/Metrics for Investors */}
+      {/* Traction/Metrics Section */}
       {page.traction && <Traction section={page.traction} />}
       
       {/* Products Showcase */}
       {page.products && <Products section={page.products} />}
       
-      {/* Technology Partners/Stack */}
-      {page.branding && <Branding section={page.branding} />}
-      
       {/* About/Introduction */}
       {page.introduce && <Feature1 section={page.introduce} />}
+      
+      {/* Technology Stack */}
+      {page.branding && <Branding section={page.branding} />}
       
       {/* Investors & Backing */}
       {page.investors && <Investors section={page.investors} />}
       
-      {/* Benefits/Solutions */}
-      {page.benefit && <Feature2 section={page.benefit} />}
-      
       {/* Team Section */}
       {page.team && <Team section={page.team} />}
-      
-      {/* Usage/Process */}
-      {page.usage && <Feature3 section={page.usage} />}
       
       {/* Features Grid */}
       {page.feature && <Feature section={page.feature} />}

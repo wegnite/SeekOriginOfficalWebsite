@@ -14,6 +14,10 @@ export interface LandingPage {
   feature?: Section;
   showcase?: Section;
   stats?: Section;
+  traction?: Section;
+  products?: Section;
+  investors?: Section;
+  team?: Section;
   pricing?: Pricing;
   testimonial?: Section;
   faq?: Section;

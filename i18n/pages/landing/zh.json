@@ -3,39 +3,44 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "ShipAny",
+      "title": "寻因智能",
       "logo": {
-        "src": "/logo.png",
-        "alt": "ShipAny"
+        "src": "/seekorigin-logo.svg",
+        "alt": "寻因智能 AI"
       },
       "url": "/"
     },
     "nav": {
       "items": [
         {
-          "title": "功能特点",
-          "url": "/#feature",
+          "title": "解决方案",
+          "url": "/#solutions",
           "icon": "RiSparkling2Line"
         },
         {
-          "title": "定价",
-          "url": "/pricing",
-          "icon": "RiMoneyDollarCircleLine"
+          "title": "功能特点",
+          "url": "/#features",
+          "icon": "RiRobot2Line"
         },
         {
-          "title": "案例展示",
-          "url": "/showcase",
-          "icon": "RiApps2Line"
+          "title": "关于我们",
+          "url": "/#about",
+          "icon": "RiTeamLine"
+        },
+        {
+          "title": "联系我们",
+          "url": "/#contact",
+          "icon": "RiMailLine"
         }
       ]
     },
     "buttons": [
       {
-        "title": "获取 ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
-        "variant": "link",
-        "icon": "RiArrowRightUpLine"
+        "title": "开始使用",
+        "url": "/#cta",
+        "target": "_self",
+        "variant": "default",
+        "icon": "RiArrowRightLine"
       }
     ],
     "show_sign": true,
@@ -43,15 +48,15 @@
     "show_locale": true
   },
   "hero": {
-    "title": "几小时内快速构建 AI 创业项目，而不是几天",
-    "highlight_text": "快速构建",
-    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板。<br/>通过丰富的模板和组件快速启动。",
+    "title": "构建赋能世界的AI工具",
+    "highlight_text": "赋能世界",
+    "description": "寻因智能创造强大、直观的AI工具，让智能民主化，<br/>提升生产力，赋能全球个人和组织实现更多成就。",
     "announcement": {
-      "label": "2025",
-      "title": "🎉 新年快乐",
-      "url": "/#pricing"
+      "label": "新上线",
+      "title": "🚀 推出全球AI解决方案",
+      "url": "/#solutions"
     },
-    "tip": "🎁 2025年前五折优惠",
+    "tip": "🌍 服务覆盖50+个国家和地区",
     "buttons": [
       {
         "title": "立即开始",
@@ -72,7 +77,7 @@
     "show_badge": false
   },
   "branding": {
-    "title": "ShipAny 建立在巨人的肩膀上",
+    "title": "尖端技术驱动",
     "items": [
       {
         "title": "Next.js",
@@ -113,9 +118,9 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "什么是 ShipAny",
-    "label": "介绍",
-    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板，内置多种模板和组件。",
+    "title": "关于我们",
+    "label": "关于寻因智能",
+    "description": "一家立足杭州、放眼全球的AI创新企业，设计和交付易于使用的人工智能工具，释放人类潜能。",
     "image": {
       "src": "/imgs/features/1.png"
     },
@@ -139,7 +144,7 @@
   },
   "benefit": {
     "name": "benefit",
-    "title": "为什么选择 ShipAny",
+    "title": "每个需求的AI解决方案",
     "label": "优势",
     "description": "获取启动 AI 创业所需的一切 - 从即用型模板到技术支持。",
     "items": [
@@ -171,7 +176,7 @@
   },
   "usage": {
     "name": "usage",
-    "title": "如何使用 ShipAny 启动项目",
+    "title": "我们构建AI工具的方法",
     "description": "通过三个简单步骤启动您的 AI SaaS 创业项目：",
     "image": {
       "src": "/imgs/features/1.png"
@@ -180,15 +185,15 @@
     "text_align": "center",
     "items": [
       {
-        "title": "获取 ShipAny",
-        "description": "一次性付款购买 ShipAny。查收邮件获取代码和文档。",
+        "title": "识别普遍需求",
+        "description": "我们寻找AI能够跨越文化和国界产生重大积极影响的挑战。",
         "image": {
           "src": "/imgs/features/5.png"
         }
       },
       {
         "title": "开始您的项目",
-        "description": "阅读文档并克隆 ShipAny 代码。开始构建您的 AI SaaS 创业项目。",
+        "description": "将复杂的AI能力转化为用户友好、易于访问的网络工具。",
         "image": {
           "src": "/imgs/features/6.png"
         }
@@ -211,7 +216,7 @@
   },
   "feature": {
     "name": "feature",
-    "title": "ShipAny 核心功能",
+    "title": "为什么选择寻因智能AI工具",
     "description": "快速高效启动 AI SaaS 创业所需的一切。",
     "items": [
       {
@@ -249,7 +254,7 @@
   "stats": {
     "name": "stats",
     "label": "统计",
-    "title": "用户喜爱 ShipAny",
+    "title": "在全球产生影响",
     "description": "因为它易于使用且快速发布。",
     "icon": "FaRegHeart",
     "items": [
@@ -273,14 +278,14 @@
   "testimonial": {
     "name": "testimonial",
     "label": "用户评价",
-    "title": "用户如何评价 ShipAny",
-    "description": "听听使用 ShipAny 启动 AI 创业项目的开发者和创始人怎么说。",
+    "title": "我们的工具如何改变生活",
+    "description": "使用寻因智能AI工具实现更多成就的用户的真实故事。",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "陈大卫",
         "label": "AIWallpaper.shop 创始人",
-        "description": "ShipAny 为我们节省了数月的开发时间。我们仅用 2 天就启动了 AI 壁纸业务，一周内就获得了第一个付费客户！",
+        "description": "寻因智能的AI设计工具彻底改变了我们的创作流程。我们以三倍的速度产出创新概念，同时保持卓越的质量。",
         "image": {
           "src": "/imgs/users/1.png"
         }
@@ -296,7 +301,7 @@
       {
         "title": "马库斯",
         "label": "独立开发者",
-        "description": "作为独立开发者，ShipAny 给了我所需的一切 - 身份验证、支付、AI 集成和漂亮的 UI。一个周末就启动了我的 SaaS！",
+        "description": "个性化学习工具让教育对我所有的学生都变得触手可及，无论他们的学习速度或风格如何。这真正实现了教育民主化。",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -312,7 +317,7 @@
       {
         "title": "詹姆斯",
         "label": "GPTs.works 技术主管",
-        "description": "ShipAny 的基础设施非常稳固。我们从 0 扩展到 1 万用户都没碰后端。这是我们 AI 创业最好的投资。",
+        "description": "内容协同创作工具完美地理解上下文和语气。我正在用多种语言创建引人入胜的内容，触达全球受众。",
         "image": {
           "src": "/imgs/users/5.png"
         }
@@ -320,7 +325,7 @@
       {
         "title": "张安娜",
         "label": "创业者",
-        "description": "从想法到上线只用了 3 天！ShipAny 的模板和部署工具让我们能够以令人难以置信的速度测试 AI 业务概念。",
+        "description": "预测洞察工具给了我们竞争优势。我们正在自信地做出数据驱动的决策，并看到真正的业务影响。",
         "image": {
           "src": "/imgs/users/6.png"
         }
@@ -330,42 +335,42 @@
   "faq": {
     "name": "faq",
     "label": "常见问题",
-    "title": "关于 ShipAny 的常见问题",
+    "title": "常见问题",
     "description": "还有其他问题？通过 Discord 或电子邮件联系我们。",
     "items": [
       {
-        "title": "ShipAny 究竟是什么，它是如何工作的？",
-        "description": "ShipAny 是一个专门为构建 AI SaaS 创业项目设计的综合性 NextJS 模板。它提供即用型模板、基础设施设置和部署工具，帮助您在几小时内而不是几天内启动 AI 业务。"
+        "title": "是什么让寻因智能的AI工具与众不同？",
+        "description": "我们的工具以全球视角设计，专注于普遍价值创造。我们优先考虑可访问性，让强大的AI能力对每个人都可用，而不仅仅是技术专家。"
       },
       {
-        "title": "使用 ShipAny 需要高级技术技能吗？",
-        "description": "虽然基本的编程知识会有帮助，但 ShipAny 设计得非常开发者友好。我们的模板和文档使您即使不是 AI 或云基础设施专家也能轻松入门。"
+        "title": "我需要技术专业知识才能使用您的工具吗？",
+        "description": "不需要！我们的工具设计得直观且用户友好。我们将复杂的AI能力转化为简单、易于访问的界面，任何人都可以有效使用。"
       },
       {
-        "title": "我可以用 ShipAny 构建什么类型的 AI SaaS？",
-        "description": "ShipAny 支持广泛的 AI 应用，从内容生成到数据分析工具。我们的模板涵盖流行用例，如 AI 聊天机器人、内容生成器、图像处理应用等。"
+        "title": "您的AI工具可以解决什么类型的问题？",
+        "description": "我们的工具解决广泛的挑战，包括创造性任务、生产力提升、数据分析、学习支持、可访问性需求以及跨各个行业的复杂问题解决。"
       },
       {
-        "title": "使用 ShipAny 通常需要多长时间才能启动？",
-        "description": "使用 ShipAny，您可以在几小时内完成工作原型，并在几小时内完成生产就绪的应用。我们的一键部署和预配置基础设施显著缩短了传统的数月开发周期。"
+        "title": "您如何确保您的工具在全球范围内有效？",
+        "description": "我们在设计时考虑文化适应性，支持多种语言，并不断从我们多元化的全球用户群体收集反馈来改进我们的工具。"
       },
       {
-        "title": "ShipAny 的基础设施包括什么？",
-        "description": "ShipAny 提供完整的基础设施栈，包括身份验证、数据库设置、API 集成、支付处理和可扩展的云部署。一切都按照行业最佳实践预先配置。"
+        "title": "我的数据在寻因智能是否安全？",
+        "description": "绝对安全。我们遵循行业最佳安全实践，遵守国际数据保护法规，未经明确许可绝不使用您的数据。"
       },
       {
         "title": "我可以自定义模板以匹配我的品牌吗？",
-        "description": "当然可以！所有 ShipAny 模板都完全可定制。您可以修改设计、功能和功能性以匹配您的品牌标识和特定业务需求，同时保持强大的底层基础设施。"
+        "description": "只需访问我们的平台，选择符合您需求的工具，并开始免费试用。无需信用卡，您可以随时根据需要升级。"
       }
     ]
   },
   "cta": {
     "name": "cta",
     "title": "启动您的第一个 AI SaaS 创业项目",
-    "description": "从这里开始，使用 ShipAny 启动。",
+    "description": "从这里开始，使用 SeekOrigin 启动。",
     "buttons": [
       {
-        "title": "获取 ShipAny",
+        "title": "获取 SeekOrigin",
         "url": "https://shipany.ai",
         "target": "_blank",
         "icon": "GoArrowUpRight"
@@ -381,15 +386,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "ShipAny",
-      "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板。通过丰富的模板和组件快速启动。",
+      "title": "SeekOrigin",
+      "description": "SeekOrigin 是一个用于构建 AI SaaS 创业项目的 NextJS 模板。通过丰富的模板和组件快速启动。",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "SeekOrigin"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ShipAny 保留所有权利。",
+    "copyright": "© 2025 • SeekOrigin 保留所有权利。",
     "nav": {
       "items": [
         {
@@ -433,22 +438,22 @@
           ]
         },
         {
-          "title": "友情链接",
+          "title": "解决方案",
           "children": [
             {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
-              "target": "_blank"
+              "title": "面向企业",
+              "url": "/#business",
+              "target": "_self"
             },
             {
-              "title": "HeyBeauty",
-              "url": "https://heybeauty.ai",
-              "target": "_blank"
+              "title": "面向教育",
+              "url": "/#education",
+              "target": "_self"
             },
             {
-              "title": "Pagen",
-              "url": "https://pagen.so",
-              "target": "_blank"
+              "title": "面向开发者",
+              "url": "/#developers",
+              "target": "_self"
             }
           ]
         }
