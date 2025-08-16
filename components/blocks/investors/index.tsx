@@ -24,16 +24,12 @@ export default function Investors({ section }: InvestorsProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
-  // Default Silicon Valley investor logos (placeholder names)
+  // Technology partners and supporters
   const defaultInvestors = [
-    { title: "Sequoia Capital", description: "Leading Silicon Valley VC", image: undefined },
-    { title: "Andreessen Horowitz", description: "a16z", image: undefined },
-    { title: "Y Combinator", description: "YC", image: undefined },
-    { title: "Accel Partners", description: "Global VC", image: undefined },
-    { title: "Kleiner Perkins", description: "Pioneer VC", image: undefined },
-    { title: "Google Ventures", description: "GV", image: undefined },
-    { title: "Tiger Global", description: "Growth Investor", image: undefined },
-    { title: "SoftBank Vision", description: "Vision Fund", image: undefined },
+    { title: "Open Source Community", description: "Contributors", image: undefined },
+    { title: "AI Developers", description: "Community", image: undefined },
+    { title: "Early Adopters", description: "Users", image: undefined },
+    { title: "Tech Partners", description: "Collaborators", image: undefined },
   ];
 
   const investors = section.items?.length ? section.items : defaultInvestors;
@@ -49,7 +45,7 @@ export default function Investors({ section }: InvestorsProps) {
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-5xl font-bold mb-4"
           >
-            {section.title || "Backed by Industry Leaders"}
+            {section.title || "Our Journey"}
           </motion.h2>
           
           <motion.p
@@ -58,7 +54,7 @@ export default function Investors({ section }: InvestorsProps) {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto"
           >
-            {section.description || "Trusted and funded by the world's leading venture capital firms and technology companies"}
+            {section.description || "Building the future with innovation and community support"}
           </motion.p>
         </div>
 
@@ -110,16 +106,16 @@ export default function Investors({ section }: InvestorsProps) {
         >
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">$50M+</div>
-              <div className="text-emerald-100">Total Funding Raised</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">2</div>
+              <div className="text-emerald-100">Products Launched</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">3</div>
-              <div className="text-emerald-100">Funding Rounds</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">1K+</div>
+              <div className="text-emerald-100">Active Users</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">$500M</div>
-              <div className="text-emerald-100">Current Valuation</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">Growing</div>
+              <div className="text-emerald-100">Community</div>
             </div>
           </div>
         </motion.div>
@@ -132,10 +128,10 @@ export default function Investors({ section }: InvestorsProps) {
           className="mt-20"
         >
           <h3 className="text-2xl font-bold text-center mb-8 text-gray-900 dark:text-white">
-            Featured In
+            Built With
           </h3>
           <div className="flex flex-wrap justify-center items-center gap-8 opacity-60 hover:opacity-100 transition-opacity">
-            {["TechCrunch", "Forbes", "WSJ", "Bloomberg", "Reuters", "The Verge"].map((press, i) => (
+            {["React", "Next.js", "TypeScript", "Tailwind", "AI APIs", "Vercel"].map((press, i) => (
               <div key={i} className="text-lg font-semibold text-gray-400 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors">
                 {press}
               </div>

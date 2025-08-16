@@ -26,12 +26,12 @@ export async function generateMetadata({
   }
 
   return {
-    title: "Seek Origin AI - Building the Future of Artificial Intelligence",
-    description: "Backed by top-tier VCs, Seek Origin is transforming industries with cutting-edge AI tools. $50M+ raised, 100K+ users, operating in 50+ countries.",
-    keywords: "AI startup, artificial intelligence, machine learning, unicorn, Silicon Valley, venture capital, Hangzhou, China",
+    title: "Seek Origin - Entertainment & Digital Innovation",
+    description: "Home of Mahavatar Narsimha - India's highest-grossing animated film, and TikTok Comment Generator - used by 500K+ creators worldwide.",
+    keywords: "Mahavatar Narsimha, TikTok Comment Generator, animated film, social media tools, viral comments, Indian animation",
     openGraph: {
-      title: "Seek Origin AI - The Future of AI Innovation",
-      description: "Join us in building AI tools that empower the world. Backed by leading VCs, serving 100K+ users globally.",
+      title: "Seek Origin - Digital Entertainment & Tools",
+      description: "Experience Mahavatar Narsimha in theaters and boost your TikTok engagement with our free Comment Generator.",
       type: "website",
       url: canonicalUrl,
       siteName: "Seek Origin AI",
@@ -46,8 +46,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: "Seek Origin AI - Building the Future of AI",
-      description: "Transforming industries with cutting-edge AI tools. $50M+ raised, 100K+ users worldwide.",
+      title: "Seek Origin - Entertainment & Social Media Tools",
+      description: "From epic animated films to viral TikTok tools - discover products that entertain and empower.",
       images: ["/seekorigin-og.png"],
     },
     alternates: {

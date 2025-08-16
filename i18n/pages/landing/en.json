@@ -48,20 +48,20 @@
     "show_locale": true
   },
   "hero": {
-    "title": "Building AI Tools that Empower the World",
-    "highlight_text": "Empower the World",
-    "description": "Seek Origin creates powerful, intuitive AI tools that democratize intelligence, boost productivity, and enable individuals and organizations worldwide to achieve more.",
+    "title": "Entertainment & Digital Tools",
+    "highlight_text": "Digital Innovation",
+    "description": "Seek Origin brings you Mahavatar Narsimha - an epic animated film experience, and TikTok Comment Generator - your AI companion for viral social media engagement.",
     "announcement": {
       "label": "NEW",
       "title": "🚀 Launching Global AI Solutions",
       "url": "/#solutions"
     },
-    "tip": "🌍 Serving users across 50+ countries",
+    "tip": "🎬 Mahavatar Narsimha in theaters | 📱 500K+ TikTok creators using our tools",
     "stats": [
-      { "value": "$50M+", "label": "Funding Raised" },
-      { "value": "100K+", "label": "Active Users" },
-      { "value": "50+", "label": "Countries" },
-      { "value": "99.9%", "label": "Uptime" }
+      { "value": "2+", "label": "Products Launched" },
+      { "value": "1K+", "label": "Active Users" },
+      { "value": "5+", "label": "Countries" },
+      { "value": "99%", "label": "Uptime" }
     ],
     "buttons": [
       {
@@ -283,159 +283,113 @@
   },
   "traction": {
     "name": "traction",
-    "title": "Exponential Growth",
-    "description": "Building the future of AI with incredible momentum",
+    "title": "Product Impact",
+    "description": "Real metrics from our products",
     "items": [
       {
-        "title": "$50M+",
-        "label": "Total Funding",
-        "description": "+150% YoY",
+        "title": "10M+",
+        "label": "TikTok Comments",
+        "description": "Generated Daily",
         "icon": "trending"
       },
       {
-        "title": "100K+",
-        "label": "Active Users",
-        "description": "+300% YoY",
+        "title": "500K+",
+        "label": "TikTok Users",
+        "description": "Active Creators",
         "icon": "users"
       },
       {
-        "title": "1M+",
-        "label": "API Calls Daily",
-        "description": "+500% YoY",
+        "title": "₹21.95 Cr",
+        "label": "Box Office",
+        "description": "Mahavatar Collection",
         "icon": "zap"
       },
       {
         "title": "50+",
-        "label": "Countries Served",
-        "description": "Global Reach",
+        "label": "Languages",
+        "description": "Supported",
         "icon": "globe"
       }
     ]
   },
   "products": {
     "name": "products",
-    "title": "AI Solutions That Transform Industries",
-    "description": "Cutting-edge tools designed for real-world impact",
+    "title": "Our Products",
+    "description": "Entertainment and social media tools for modern digital experiences",
     "items": [
       {
-        "title": "AI Assistant Pro",
-        "description": "Advanced conversational AI that understands context and delivers intelligent responses.",
-        "label": "Multi-language support with enterprise-grade security",
+        "title": "Mahavatar Narsimha",
+        "description": "Epic animated mythological film chronicling the divine avatar of Lord Vishnu. First chapter of the Mahavatar Cinematic Universe.",
+        "label": "India's highest-grossing animated film - Available in 5 languages",
         "icon": "brain",
-        "url": "/products/assistant"
+        "url": "https://mahavatar-narsimha.com/"
       },
       {
-        "title": "Vision Analytics",
-        "description": "Computer vision platform that transforms visual data into actionable insights.",
-        "label": "Real-time analysis with custom model training",
+        "title": "TikTok Comment Generator",
+        "description": "Free AI-powered tool that generates viral, engaging comments for TikTok videos. Create authentic comments in multiple styles and languages.",
+        "label": "10M+ comments generated for 500K+ users in 50+ languages",
         "icon": "sparkles",
-        "url": "/products/vision"
-      },
-      {
-        "title": "Predictive Engine",
-        "description": "Machine learning platform for accurate predictions and data-driven decisions.",
-        "label": "AutoML capabilities with explainable AI",
-        "icon": "zap",
-        "url": "/products/predictive"
+        "url": "https://tiktokcommentgenerators.com/"
       }
     ]
   },
   "investors": {
     "name": "investors",
-    "title": "Backed by Industry Leaders",
-    "description": "Trusted and funded by the world's leading venture capital firms",
+    "title": "Our Journey",
+    "description": "Building the future with innovation and dedication",
     "items": []
   },
   "team": {
     "name": "team",
-    "title": "Meet Our Leadership",
-    "description": "Visionaries and experts driving the AI revolution",
+    "title": "Behind the Products",
+    "description": "The teams bringing you innovative digital experiences",
     "items": [
       {
-        "title": "Dr. Sarah Chen",
-        "label": "CEO & Co-founder",
-        "description": "Former AI research lead at Google Brain. PhD in Machine Learning from Stanford. 15+ years building AI systems."
+        "title": "Ashwin Kumar",
+        "label": "Director - Mahavatar Narsimha",
+        "description": "Visionary director making his debut with India's highest-grossing animated film."
       },
       {
-        "title": "Michael Zhang",
-        "label": "CTO & Co-founder",
-        "description": "Ex-Principal Engineer at OpenAI. Led development of GPT models. MIT Computer Science graduate."
+        "title": "Development Team",
+        "label": "TikTok Comment Generator",
+        "description": "Engineers and AI specialists building tools used by 500K+ creators worldwide."
       },
       {
-        "title": "Emily Rodriguez",
-        "label": "Chief Product Officer",
-        "description": "Previously VP Product at Anthropic. 10+ years shipping AI products at scale. Harvard MBA."
-      },
-      {
-        "title": "James Park",
-        "label": "VP Engineering",
-        "description": "Former Staff Engineer at Meta AI. Built recommendation systems serving billions. Carnegie Mellon CS."
-      },
-      {
-        "title": "Dr. Lisa Wang",
-        "label": "Head of Research",
-        "description": "Published 50+ papers on deep learning. Former research scientist at DeepMind. Oxford PhD."
-      },
-      {
-        "title": "David Kim",
-        "label": "VP Business Development",
-        "description": "Scaled enterprise sales at Databricks from $10M to $1B ARR. Wharton MBA."
+        "title": "Kleem Productions & Hombale Films",
+        "label": "Production Houses",
+        "description": "Leading Indian production companies bringing epic stories to life."
       }
     ]
   },
   "testimonial": {
     "name": "testimonial",
-    "label": "User Stories",
-    "title": "How Our Tools Transform Lives",
-    "description": "Real stories from users who've achieved more with Seek Origin AI tools.",
+    "label": "Impact",
+    "title": "Our Products in Numbers",
+    "description": "Real impact metrics from our products",
     "icon": "GoThumbsup",
     "items": [
       {
-        "title": "David Chen",
-        "label": "Creative Director, Singapore",
-        "description": "Seek Origin's AI design tools have revolutionized our creative process. We're producing innovative concepts 3x faster while maintaining exceptional quality.",
+        "title": "10M+",
+        "label": "Comments Generated",
+        "description": "TikTok Comment Generator has created over 10 million engaging comments for creators worldwide.",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
-        "title": "Rachel Kim",
-        "label": "Research Scientist, Seoul",
-        "description": "The intelligent research assistant has transformed how we analyze data. Complex patterns that took weeks to identify are now discovered in hours.",
+        "title": "500K+",
+        "label": "Active Users",
+        "description": "Half a million content creators use our TikTok tools to boost their engagement.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
-        "title": "Marcus Thompson",
-        "label": "Educator, London",
-        "description": "The personalized learning tools have made education accessible to all my students, regardless of their learning pace or style. It's truly democratizing education.",
+        "title": "9.4/10",
+        "label": "IMDb Rating",
+        "description": "Mahavatar Narsimha received exceptional ratings, becoming India's highest-grossing animated film.",
         "image": {
           "src": "/imgs/users/3.png"
-        }
-      },
-      {
-        "title": "Sofia Garcia",
-        "label": "Startup Founder, Madrid",
-        "description": "Seek Origin's productivity tools helped us scale from 5 to 50 employees without losing efficiency. The AI automation handles repetitive tasks perfectly.",
-        "image": {
-          "src": "/imgs/users/4.png"
-        }
-      },
-      {
-        "title": "James Wilson",
-        "label": "Content Creator, New York",
-        "description": "The content co-creation tools understand context and tone perfectly. I'm creating engaging content in multiple languages, reaching global audiences.",
-        "image": {
-          "src": "/imgs/users/5.png"
-        }
-      },
-      {
-        "title": "Anna Zhang",
-        "label": "Data Analyst, Shanghai",
-        "description": "The predictive insights tools have given us a competitive edge. We're making data-driven decisions with confidence and seeing real business impact.",
-        "image": {
-          "src": "/imgs/users/6.png"
         }
       }
     ]
@@ -444,31 +398,31 @@
     "name": "faq",
     "label": "FAQ",
     "title": "Frequently Asked Questions",
-    "description": "Learn more about Seek Origin and our AI tools.",
+    "description": "Learn more about our products and services.",
     "items": [
       {
-        "title": "What makes Seek Origin's AI tools different?",
-        "description": "Our tools are designed with a global perspective, focusing on universal value creation. We prioritize accessibility, making powerful AI capabilities available to everyone, not just tech experts."
+        "title": "What is TikTok Comment Generator?",
+        "description": "It's a free AI-powered tool that generates viral, engaging comments for TikTok videos. With 10M+ comments generated for 500K+ users, it supports 50+ languages and various comment styles."
       },
       {
-        "title": "Do I need technical expertise to use your tools?",
-        "description": "No! Our tools are designed to be intuitive and user-friendly. We transform complex AI capabilities into simple, accessible interfaces that anyone can use effectively."
+        "title": "How do I use the TikTok Comment Generator?",
+        "description": "Simply enter the video context, choose your preferred tone (funny, supportive, trendy), and click generate. You can customize and download comments as images with TikTok-style backgrounds."
       },
       {
-        "title": "What types of problems can your AI tools solve?",
-        "description": "Our tools address a wide range of challenges including creative tasks, productivity enhancement, data analysis, learning support, accessibility needs, and complex problem-solving across various industries."
+        "title": "What is Mahavatar Narsimha?",
+        "description": "It's an epic animated mythological film - the first chapter of the Mahavatar Cinematic Universe. With an IMDb rating of 9.4/10, it's India's highest-grossing animated film."
       },
       {
-        "title": "How do you ensure your tools work globally?",
-        "description": "We design with cultural adaptability in mind, support multiple languages, and continuously gather feedback from our diverse global user base to improve our tools."
+        "title": "Where can I watch Mahavatar Narsimha?",
+        "description": "The film is currently in theaters across India in 5 languages. OTT release is expected on September 25, 2025, on major platforms like Netflix, Amazon Prime, and Disney+ Hotstar."
       },
       {
-        "title": "Is my data safe with Seek Origin?",
-        "description": "Absolutely. We follow industry-best security practices, comply with international data protection regulations, and never use your data without explicit permission."
+        "title": "Is TikTok Comment Generator really free?",
+        "description": "Yes! It's 100% free to use with no sign-up required. Generate unlimited comments instantly without any cost or registration."
       },
       {
-        "title": "How can I get started with Seek Origin's tools?",
-        "description": "Simply visit our platform, choose the tool that matches your needs, and start with our free trial. No credit card required, and you can upgrade anytime as your needs grow."
+        "title": "What's next for Seek Origin?",
+        "description": "We're expanding both products - more features for TikTok Comment Generator and the next film in the Mahavatar Cinematic Universe, with 6 more films planned through 2037."
       }
     ]
   },

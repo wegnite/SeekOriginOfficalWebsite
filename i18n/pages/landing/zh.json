@@ -48,15 +48,15 @@
     "show_locale": true
   },
   "hero": {
-    "title": "构建赋能世界的AI工具",
-    "highlight_text": "赋能世界",
-    "description": "寻因智能创造强大、直观的AI工具，让智能民主化，<br/>提升生产力，赋能全球个人和组织实现更多成就。",
+    "title": "创新AI解决方案",
+    "highlight_text": "AI解决方案",
+    "description": "寻因智能开发创新的AI工具，包括Mahavatar Narsimha和TikTok评论生成器，<br/>帮助用户创造吸引人的内容，提升数字影响力。",
     "announcement": {
       "label": "新上线",
       "title": "🚀 推出全球AI解决方案",
       "url": "/#solutions"
     },
-    "tip": "🌍 服务覆盖50+个国家和地区",
+    "tip": "🚀 用AI帮助用户创造更好的内容",
     "buttons": [
       {
         "title": "立即开始",
