@@ -26,12 +26,12 @@ export async function generateMetadata({
   }
 
   return {
-    title: "Seek Origin - Entertainment & Digital Innovation",
-    description: "Home of Mahavatar Narsimha - India's highest-grossing animated film, and TikTok Comment Generator - used by 500K+ creators worldwide.",
+    title: "Seek Origin - Digital Products & Entertainment",
+    description: "Discover Mahavatar Narsimha animated film and TikTok Comment Generator - innovative digital experiences for entertainment and social media.",
     keywords: "Mahavatar Narsimha, TikTok Comment Generator, animated film, social media tools, viral comments, Indian animation",
     openGraph: {
-      title: "Seek Origin - Digital Entertainment & Tools",
-      description: "Experience Mahavatar Narsimha in theaters and boost your TikTok engagement with our free Comment Generator.",
+      title: "Seek Origin - Digital Products",
+      description: "Explore our entertainment and social media tools designed for modern digital experiences.",
       type: "website",
       url: canonicalUrl,
       siteName: "Seek Origin AI",
@@ -46,8 +46,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: "Seek Origin - Entertainment & Social Media Tools",
-      description: "From epic animated films to viral TikTok tools - discover products that entertain and empower.",
+      title: "Seek Origin - Products",
+      description: "Entertainment and social media tools for everyone.",
       images: ["/seekorigin-og.png"],
     },
     alternates: {

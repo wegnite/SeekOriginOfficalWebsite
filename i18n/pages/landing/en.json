@@ -56,13 +56,8 @@
       "title": "🚀 Launching Global AI Solutions",
       "url": "/#solutions"
     },
-    "tip": "🎬 Mahavatar Narsimha in theaters | 📱 500K+ TikTok creators using our tools",
-    "stats": [
-      { "value": "2+", "label": "Products Launched" },
-      { "value": "1K+", "label": "Active Users" },
-      { "value": "5+", "label": "Countries" },
-      { "value": "99%", "label": "Uptime" }
-    ],
+    "tip": "🎬 Entertainment and digital tools for everyone",
+    "stats": [],
     "buttons": [
       {
         "title": "Explore Our Tools",
@@ -283,31 +278,31 @@
   },
   "traction": {
     "name": "traction",
-    "title": "Product Impact",
-    "description": "Real metrics from our products",
+    "title": "Our Products",
+    "description": "Innovative solutions for entertainment and social media",
     "items": [
       {
-        "title": "10M+",
-        "label": "TikTok Comments",
-        "description": "Generated Daily",
+        "title": "Entertainment",
+        "label": "Mahavatar Narsimha",
+        "description": "Epic animated film experience",
         "icon": "trending"
       },
       {
-        "title": "500K+",
-        "label": "TikTok Users",
-        "description": "Active Creators",
+        "title": "Social Media",
+        "label": "TikTok Tools",
+        "description": "Comment generation for creators",
         "icon": "users"
       },
       {
-        "title": "₹21.95 Cr",
-        "label": "Box Office",
-        "description": "Mahavatar Collection",
+        "title": "Innovation",
+        "label": "AI Technology",
+        "description": "Cutting-edge solutions",
         "icon": "zap"
       },
       {
-        "title": "50+",
-        "label": "Languages",
-        "description": "Supported",
+        "title": "Global",
+        "label": "Reach",
+        "description": "Worldwide accessibility",
         "icon": "globe"
       }
     ]
@@ -315,19 +310,19 @@
   "products": {
     "name": "products",
     "title": "Our Products",
-    "description": "Entertainment and social media tools for modern digital experiences",
+    "description": "Digital tools and entertainment experiences",
     "items": [
       {
         "title": "Mahavatar Narsimha",
-        "description": "Epic animated mythological film chronicling the divine avatar of Lord Vishnu. First chapter of the Mahavatar Cinematic Universe.",
-        "label": "India's highest-grossing animated film - Available in 5 languages",
+        "description": "An animated mythological film experience featuring the story of Lord Vishnu's avatar.",
+        "label": "Epic animated entertainment",
         "icon": "brain",
         "url": "https://mahavatar-narsimha.com/"
       },
       {
         "title": "TikTok Comment Generator",
-        "description": "Free AI-powered tool that generates viral, engaging comments for TikTok videos. Create authentic comments in multiple styles and languages.",
-        "label": "10M+ comments generated for 500K+ users in 50+ languages",
+        "description": "A free tool that helps creators generate engaging comments for TikTok videos using AI technology.",
+        "label": "AI-powered social media tool",
         "icon": "sparkles",
         "url": "https://tiktokcommentgenerators.com/"
       }
@@ -341,53 +336,53 @@
   },
   "team": {
     "name": "team",
-    "title": "Behind the Products",
-    "description": "The teams bringing you innovative digital experiences",
+    "title": "Our Team",
+    "description": "Dedicated to creating quality digital experiences",
     "items": [
       {
-        "title": "Ashwin Kumar",
-        "label": "Director - Mahavatar Narsimha",
-        "description": "Visionary director making his debut with India's highest-grossing animated film."
+        "title": "Product Development",
+        "label": "Engineering",
+        "description": "Our development team focuses on creating intuitive and reliable digital products."
       },
       {
-        "title": "Development Team",
-        "label": "TikTok Comment Generator",
-        "description": "Engineers and AI specialists building tools used by 500K+ creators worldwide."
+        "title": "Creative Design",
+        "label": "Design Team",
+        "description": "Designers who craft engaging user interfaces and experiences."
       },
       {
-        "title": "Kleem Productions & Hombale Films",
-        "label": "Production Houses",
-        "description": "Leading Indian production companies bringing epic stories to life."
+        "title": "Innovation",
+        "label": "Research",
+        "description": "Exploring new technologies to enhance our product offerings."
       }
     ]
   },
   "testimonial": {
     "name": "testimonial",
-    "label": "Impact",
-    "title": "Our Products in Numbers",
-    "description": "Real impact metrics from our products",
+    "label": "Features",
+    "title": "What We Offer",
+    "description": "Key features of our products",
     "icon": "GoThumbsup",
     "items": [
       {
-        "title": "10M+",
-        "label": "Comments Generated",
-        "description": "TikTok Comment Generator has created over 10 million engaging comments for creators worldwide.",
+        "title": "AI Technology",
+        "label": "Smart Generation",
+        "description": "Our TikTok Comment Generator uses AI to create relevant and engaging comments for your content.",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
-        "title": "500K+",
-        "label": "Active Users",
-        "description": "Half a million content creators use our TikTok tools to boost their engagement.",
+        "title": "Entertainment",
+        "label": "Visual Experience",
+        "description": "Mahavatar Narsimha delivers an immersive animated storytelling experience.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
-        "title": "9.4/10",
-        "label": "IMDb Rating",
-        "description": "Mahavatar Narsimha received exceptional ratings, becoming India's highest-grossing animated film.",
+        "title": "Accessibility",
+        "label": "Free to Use",
+        "description": "Our TikTok tools are completely free and require no registration to get started.",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -402,27 +397,27 @@
     "items": [
       {
         "title": "What is TikTok Comment Generator?",
-        "description": "It's a free AI-powered tool that generates viral, engaging comments for TikTok videos. With 10M+ comments generated for 500K+ users, it supports 50+ languages and various comment styles."
+        "description": "It's a free AI-powered tool that helps you create engaging comments for TikTok videos. The tool offers various comment styles and tones to match your needs."
       },
       {
         "title": "How do I use the TikTok Comment Generator?",
-        "description": "Simply enter the video context, choose your preferred tone (funny, supportive, trendy), and click generate. You can customize and download comments as images with TikTok-style backgrounds."
+        "description": "Simply enter the video context, choose your preferred tone (funny, supportive, trendy), and click generate. You can customize and download comments as images."
       },
       {
         "title": "What is Mahavatar Narsimha?",
-        "description": "It's an epic animated mythological film - the first chapter of the Mahavatar Cinematic Universe. With an IMDb rating of 9.4/10, it's India's highest-grossing animated film."
+        "description": "It's an animated mythological film that tells the story of Lord Vishnu's avatar. The film offers an immersive visual experience."
       },
       {
-        "title": "Where can I watch Mahavatar Narsimha?",
-        "description": "The film is currently in theaters across India in 5 languages. OTT release is expected on September 25, 2025, on major platforms like Netflix, Amazon Prime, and Disney+ Hotstar."
+        "title": "Where can I access these products?",
+        "description": "Visit mahavatar-narsimha.com for the film experience and tiktokcommentgenerators.com for the TikTok tool."
       },
       {
         "title": "Is TikTok Comment Generator really free?",
-        "description": "Yes! It's 100% free to use with no sign-up required. Generate unlimited comments instantly without any cost or registration."
+        "description": "Yes! It's completely free to use with no sign-up required. You can start generating comments immediately."
       },
       {
-        "title": "What's next for Seek Origin?",
-        "description": "We're expanding both products - more features for TikTok Comment Generator and the next film in the Mahavatar Cinematic Universe, with 6 more films planned through 2037."
+        "title": "What makes your products unique?",
+        "description": "We focus on creating accessible, user-friendly experiences that combine entertainment with practical digital tools."
       }
     ]
   },

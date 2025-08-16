@@ -106,16 +106,16 @@ export default function Investors({ section }: InvestorsProps) {
         >
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">2</div>
-              <div className="text-emerald-100">Products Launched</div>
+              <div className="text-3xl md:text-4xl font-bold mb-2">Innovation</div>
+              <div className="text-emerald-100">Continuous Development</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">1K+</div>
-              <div className="text-emerald-100">Active Users</div>
+              <div className="text-3xl md:text-4xl font-bold mb-2">Quality</div>
+              <div className="text-emerald-100">User-Focused Design</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">Growing</div>
-              <div className="text-emerald-100">Community</div>
+              <div className="text-3xl md:text-4xl font-bold mb-2">Growth</div>
+              <div className="text-emerald-100">Expanding Horizons</div>
             </div>
           </div>
         </motion.div>
