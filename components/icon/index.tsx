@@ -1,75 +1,146 @@
 "use client";
 
-// import * as Ai from "react-icons/ai"; // Ant Design icons
-// import * as Bi from "react-icons/bi"; // Boxicons
-// import * as Bs from "react-icons/bs"; // Bootstrap icons
+import * as LucideIcons from "lucide-react";
 
-// import * as Md from "react-icons/md"; // Material Design icons
-// import * as Pi from "react-icons/pi"; // Phosphor Icons
-import * as Ri from "react-icons/ri"; // Remix icons
-
-import { ReactNode } from "react";
-
-// import * as Cg from "react-icons/cg"; // Circum icons
-// import * as Ci from "react-icons/ci"; // css.gg
-// import * as Di from "react-icons/di"; // Devicons
-// import * as Fa from "react-icons/fa"; // Font Awesome icons
-// import * as Fa6 from "react-icons/fa6"; // Font Awesome 6 icons
-// import * as Fc from "react-icons/fc"; // Flat Color icons
-// import * as Fi from "react-icons/fi"; // Feather icons
-// import * as Gi from "react-icons/gi"; // Game Icons
-// import * as Go from "react-icons/go"; // Github Octicons icons
-// import * as Gr from "react-icons/gr"; // Grommet-Icons
-// import * as Hi from "react-icons/hi"; // Heroicons
-// import * as Hi2 from "react-icons/hi2"; // Heroicons 2
-// import * as Im from "react-icons/im"; // IcoMoon Free
-// import * as Io from "react-icons/io"; // Ionicons 4
-// import * as Io5 from "react-icons/io5"; // Ionicons 5
-// import * as Lia from "react-icons/lia"; // Icons8 Line Awesome
-// import * as Lu from "react-icons/lu"; // Lucide Icons
-
-// import * as Rx from "react-icons/rx"; // Radix Icons
-// import * as Si from "react-icons/si"; // Simple Icons
-// import * as Sl from "react-icons/sl"; // Simple Line Icons
-// import * as Tb from "react-icons/tb"; // Tabler Icons
-// import * as Tfi from "react-icons/tfi"; // Themify Icons
-// import * as Ti from "react-icons/ti"; // Typicons
-// import * as Vsc from "react-icons/vsc"; // VS Code icons
-// import * as Wi from "react-icons/wi"; // Weather icons
-
-// Map of prefixes to icon packages
-const iconPackages: { [key: string]: any } = {
-  // Ai,
-  // Bs,
-  // Bi,
-  // Ci,
-  // Cg,
-  // Di,
-  // Fi,
-  // Fc,
-  // Fa,
-  // Fa6,
-  // Go,
-  // Gi,
-  // Gr,
-  // Hi,
-  // Hi2,
-  // Im,
-  // Io,
-  // Io5,
-  // Lia,
-  // Lu,
-  // Md,
-  // Pi,
-  Ri,
-  // Rx,
-  // Si,
-  // Sl,
-  // Tb,
-  // Tfi,
-  // Ti,
-  // Vsc,
-  // Wi,
+// Map Remix icon names to Lucide equivalents
+const iconMapping: { [key: string]: string } = {
+  // Common icons
+  "RiHomeLine": "Home",
+  "RiHome2Line": "Home",
+  "RiSearchLine": "Search",
+  "RiUserLine": "User",
+  "RiUserFill": "User",
+  "RiSettingsLine": "Settings",
+  "RiMailLine": "Mail",
+  "RiMailFill": "Mail",
+  "RiPhoneLine": "Phone",
+  "RiPhoneFill": "Phone",
+  "RiGithubFill": "Github",
+  "RiGithubLine": "Github",
+  "RiTwitterXFill": "Twitter",
+  "RiTwitterXLine": "Twitter",
+  "RiLinkedinBoxFill": "Linkedin",
+  "RiLinkedinLine": "Linkedin",
+  "RiDiscordFill": "MessageCircle",
+  "RiDiscordLine": "MessageCircle",
+  
+  // Navigation
+  "RiArrowLeftLine": "ArrowLeft",
+  "RiArrowRightLine": "ArrowRight",
+  "RiArrowUpLine": "ArrowUp",
+  "RiArrowDownLine": "ArrowDown",
+  "RiArrowLeftSLine": "ChevronLeft",
+  "RiArrowRightSLine": "ChevronRight",
+  "RiArrowUpSLine": "ChevronUp",
+  "RiArrowDownSLine": "ChevronDown",
+  "RiCloseLine": "X",
+  "RiMenuLine": "Menu",
+  "RiMenu2Line": "Menu",
+  
+  // Actions
+  "RiAddLine": "Plus",
+  "RiAddFill": "Plus",
+  "RiSubtractLine": "Minus",
+  "RiDeleteBinLine": "Trash",
+  "RiDeleteBinFill": "Trash2",
+  "RiEditLine": "Edit",
+  "RiEditFill": "Edit",
+  "RiSaveLine": "Save",
+  "RiSaveFill": "Save",
+  "RiDownloadLine": "Download",
+  "RiUploadLine": "Upload",
+  "RiShareLine": "Share",
+  "RiShareFill": "Share2",
+  "RiCopyLine": "Copy",
+  "RiCopyFill": "Copy",
+  
+  // UI Elements
+  "RiCheckLine": "Check",
+  "RiCheckboxCircleLine": "CheckCircle",
+  "RiCheckboxCircleFill": "CheckCircle2",
+  "RiCloseCircleLine": "XCircle",
+  "RiInformationLine": "Info",
+  "RiInformationFill": "Info",
+  "RiQuestionLine": "HelpCircle",
+  "RiQuestionFill": "HelpCircle",
+  "RiAlertLine": "AlertTriangle",
+  "RiAlertFill": "AlertTriangle",
+  "RiStarLine": "Star",
+  "RiStarFill": "Star",
+  "RiHeartLine": "Heart",
+  "RiHeartFill": "Heart",
+  
+  // Media
+  "RiImageLine": "Image",
+  "RiImageFill": "Image",
+  "RiVideoLine": "Video",
+  "RiVideoFill": "Video",
+  "RiMusicLine": "Music",
+  "RiMusicFill": "Music",
+  "RiMicLine": "Mic",
+  "RiMicFill": "Mic",
+  "RiCameraLine": "Camera",
+  "RiCameraFill": "Camera",
+  
+  // Business/Work
+  "RiBriefcaseLine": "Briefcase",
+  "RiBriefcaseFill": "Briefcase",
+  "RiCalendarLine": "Calendar",
+  "RiCalendarFill": "Calendar",
+  "RiTimeLine": "Clock",
+  "RiTimeFill": "Clock",
+  "RiTeamLine": "Users",
+  "RiTeamFill": "Users",
+  "RiGroupLine": "Users",
+  "RiGroupFill": "Users",
+  
+  // Development
+  "RiCodeLine": "Code",
+  "RiCodeSLine": "Code2",
+  "RiTerminalLine": "Terminal",
+  "RiTerminalBoxLine": "Terminal",
+  "RiBugLine": "Bug",
+  "RiBugFill": "Bug",
+  "RiRocketLine": "Rocket",
+  "RiRocketFill": "Rocket",
+  
+  // Files & Folders
+  "RiFileLine": "File",
+  "RiFileFill": "File",
+  "RiFileTextLine": "FileText",
+  "RiFileTextFill": "FileText",
+  "RiFolderLine": "Folder",
+  "RiFolderFill": "Folder",
+  "RiFolderOpenLine": "FolderOpen",
+  "RiFolderOpenFill": "FolderOpen",
+  
+  // Special icons
+  "RiSparkling2Line": "Sparkles",
+  "RiSparklingLine": "Sparkles",
+  "RiMagicLine": "Wand2",
+  "RiRobot2Line": "Bot",
+  "RiRobotLine": "Bot",
+  "RiTargetLine": "Target",
+  "RiEyeLine": "Eye",
+  "RiEyeFill": "Eye",
+  "RiEyeOffLine": "EyeOff",
+  "RiEyeOffFill": "EyeOff",
+  "RiCompassDiscoverLine": "Compass",
+  "RiBookOpenLine": "BookOpen",
+  "RiBookLine": "Book",
+  "RiSpeedLine": "Gauge",
+  "RiPaletteLine": "Palette",
+  "RiEmotionSadFill": "Frown",
+  "RiEmotionSadLine": "Frown",
+  "RiNewspaperLine": "Newspaper",
+  "RiHandshakeLine": "Handshake",
+  "RiShieldCheckLine": "ShieldCheck",
+  "RiCustomerService2Line": "Headphones",
+  "RiFlashlightFill": "Zap",
+  "RiFlashlightLine": "Zap",
+  
+  // Default fallback
+  "default": "Circle"
 };
 
 export default function Icon({
@@ -81,18 +152,25 @@ export default function Icon({
   className?: string;
   onClick?: () => void;
 }) {
-  function getIcon(name: string): ReactNode {
-    // Extract prefix (first two characters)
-    const prefix = name.slice(0, 2);
-
-    // Get the corresponding icon package
-    const iconPackage = iconPackages[prefix];
-    if (iconPackage) {
-      const iconName = name as keyof typeof iconPackage;
-      return iconPackage[iconName] || null;
+  function getIcon(name: string): React.ElementType | null {
+    // Try to find a mapping for the Remix icon name
+    const lucideIconName = iconMapping[name] || iconMapping["default"];
+    
+    // Get the Lucide icon component
+    const IconComponent = (LucideIcons as any)[lucideIconName];
+    
+    if (IconComponent) {
+      return IconComponent;
     }
-
-    return null;
+    
+    // If no mapping found, try to use the name directly (in case it's already a Lucide icon name)
+    const DirectIcon = (LucideIcons as any)[name];
+    if (DirectIcon) {
+      return DirectIcon;
+    }
+    
+    // Fallback to a default icon
+    return LucideIcons.Circle;
   }
 
   const IconComponent = getIcon(name) as React.ElementType;
@@ -100,7 +178,7 @@ export default function Icon({
   // Return null if no icon is found
   if (!IconComponent) return null;
 
-  // Render the icon component instead of returning it directly
+  // Render the icon component
   return (
     <IconComponent
       className={`${className} cursor-pointer`}

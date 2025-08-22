@@ -50,13 +50,13 @@
   "hero": {
     "title": "Building AI Tools that Empower the World",
     "highlight_text": "Empower the World",
-    "description": "Seek Origin creates powerful, intuitive AI tools that democratize intelligence,<br/>boost productivity, and enable individuals and organizations worldwide to achieve more.",
+    "description": "Seek Origin AI is a global technology company creating powerful, accessible artificial intelligence tools<br/>that unlock human potential, enhance creativity, and drive innovation across industries worldwide.",
     "announcement": {
-      "label": "NEW",
-      "title": "🚀 Launching Global AI Solutions",
+      "label": "TRUSTED",
+      "title": "🌍 Global AI Innovation Leader - Serving 50+ Countries",
       "url": "/#solutions"
     },
-    "tip": "🌍 Serving users across 50+ countries",
+    "tip": "✅ Enterprise-grade security • GDPR compliant • SOC 2 certified",
     "buttons": [
       {
         "title": "Explore Our Tools",
@@ -119,26 +119,26 @@
   "introduce": {
     "name": "about",
     "title": "Who We Are",
-    "label": "About Seek Origin",
-    "description": "A globally-minded AI innovator based in Hangzhou, China, designing and delivering accessible artificial intelligence tools that unlock human potential.",
+    "label": "About Seek Origin AI",
+    "description": "Founded in August 2025, Seek Origin AI is a pioneering artificial intelligence company. We are committed to making advanced AI technology accessible to everyone, everywhere, breaking down barriers between human creativity and technological capability.",
     "image": {
       "src": "/imgs/features/1.png"
     },
     "items": [
       {
-        "title": "Global Vision",
-        "description": "We design tools with scalability and cultural adaptability in mind, serving diverse global users.",
-        "icon": "RiGlobalLine"
+        "title": "Our Mission",
+        "description": "To democratize artificial intelligence by creating tools that are powerful yet accessible, enabling every individual and organization to harness the transformative power of AI.",
+        "icon": "RiTargetLine"
       },
       {
-        "title": "Human-Centric Design",
-        "description": "Prioritizing intuitive interfaces and seamless experiences for a broad global audience.",
-        "icon": "RiUserHeartLine"
+        "title": "Our Vision",
+        "description": "A world where AI amplifies human capability, creativity, and potential - where technology serves humanity, not the other way around.",
+        "icon": "RiEyeLine"
       },
       {
-        "title": "Value First",
-        "description": "Every tool we create is measured by its ability to generate meaningful, positive outcomes.",
-        "icon": "RiTrophyLine"
+        "title": "Our Values",
+        "description": "Innovation with integrity, accessibility without compromise, global perspective with local sensitivity, and unwavering commitment to user success.",
+        "icon": "RiHeartLine"
       }
     ]
   },
@@ -383,18 +383,80 @@
       }
     ]
   },
+  "contact": {
+    "name": "contact",
+    "title": "Get in Touch",
+    "label": "Contact Us",
+    "description": "We're here to help and answer any questions you might have. Reach out to us and we'll respond as soon as we can.",
+    "items": [
+      {
+        "title": "Headquarters",
+        "icon": "RiBuildingLine",
+        "description": "Seek Origin AI Technology Co., Ltd.<br/>Hangzhou, Zhejiang Province<br/>China"
+      },
+      {
+        "title": "General Inquiries",
+        "icon": "RiMailLine",
+        "description": "For general questions and information<br/><a href=\"mailto:mryangsd@gmail.com\" class=\"text-primary hover:underline\">mryangsd@gmail.com</a>"
+      },
+      {
+        "title": "Technical Support",
+        "icon": "RiCustomerService2Line",
+        "description": "For technical assistance and support<br/><a href=\"mailto:mryangsd@gmail.com\" class=\"text-primary hover:underline\">mryangsd@gmail.com</a>"
+      },
+      {
+        "title": "Business Partnerships",
+        "icon": "RiHandshakeLine",
+        "description": "For partnership and collaboration opportunities<br/><a href=\"mailto:mryangsd@gmail.com\" class=\"text-primary hover:underline\">mryangsd@gmail.com</a>"
+      },
+      {
+        "title": "Legal & Compliance",
+        "icon": "RiShieldCheckLine",
+        "description": "For legal inquiries and compliance matters<br/><a href=\"mailto:mryangsd@gmail.com\" class=\"text-primary hover:underline\">mryangsd@gmail.com</a>"
+      },
+      {
+        "title": "Media Inquiries",
+        "icon": "RiNewspaperLine",
+        "description": "For press and media relations<br/><a href=\"mailto:mryangsd@gmail.com\" class=\"text-primary hover:underline\">mryangsd@gmail.com</a>"
+      }
+    ],
+    "office_hours": {
+      "title": "Business Hours",
+      "description": "Monday - Friday: 9:00 AM - 6:00 PM (China Standard Time)<br/>We respond to all inquiries within 24-48 business hours."
+    },
+    "social_links": {
+      "title": "Connect With Us",
+      "items": [
+        {
+          "title": "LinkedIn",
+          "icon": "RiLinkedinBoxFill",
+          "url": "https://linkedin.com/company/seekorigin"
+        },
+        {
+          "title": "Twitter",
+          "icon": "RiTwitterXFill",
+          "url": "https://twitter.com/SeekOriginAI"
+        },
+        {
+          "title": "GitHub",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/seekorigin"
+        }
+      ]
+    }
+  },
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "Seek Origin",
-      "description": "Building AI tools that democratize intelligence, foster creativity, and empower individuals and organizations worldwide.",
+      "title": "Seek Origin AI",
+      "description": "Building AI tools that democratize intelligence, foster creativity, and empower individuals and organizations worldwide. Founded in August 2025.",
       "logo": {
         "src": "/seekorigin-logo.svg",
         "alt": "Seek Origin AI"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • Seek Origin (Hangzhou) Intelligent Technology Co., Ltd. All rights reserved.",
+    "copyright": "© 2025 Seek Origin AI. All rights reserved.",
     "nav": {
       "items": [
         {
@@ -411,8 +473,18 @@
               "target": "_self"
             },
             {
+              "title": "Contact Us",
+              "url": "/#contact",
+              "target": "_self"
+            },
+            {
               "title": "Careers",
               "url": "/careers",
+              "target": "_self"
+            },
+            {
+              "title": "Press Kit",
+              "url": "/press",
               "target": "_self"
             }
           ]
@@ -438,8 +510,13 @@
           ]
         },
         {
-          "title": "Resources",
+          "title": "Support",
           "children": [
+            {
+              "title": "Help Center",
+              "url": "/help",
+              "target": "_self"
+            },
             {
               "title": "Documentation",
               "url": "/docs",
@@ -451,8 +528,43 @@
               "target": "_self"
             },
             {
+              "title": "System Status",
+              "url": "https://status.seekorigin.ai",
+              "target": "_blank"
+            },
+            {
               "title": "Blog",
               "url": "/blog",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Legal",
+          "children": [
+            {
+              "title": "Privacy Policy",
+              "url": "/privacy-policy",
+              "target": "_self"
+            },
+            {
+              "title": "Terms of Service",
+              "url": "/terms-of-service",
+              "target": "_self"
+            },
+            {
+              "title": "Cookie Policy",
+              "url": "/cookie-policy",
+              "target": "_self"
+            },
+            {
+              "title": "Data Security",
+              "url": "/security",
+              "target": "_self"
+            },
+            {
+              "title": "Compliance",
+              "url": "/compliance",
               "target": "_self"
             }
           ]
@@ -470,7 +582,7 @@
         {
           "title": "Twitter",
           "icon": "RiTwitterXFill",
-          "url": "https://twitter.com/seekorigin",
+          "url": "https://twitter.com/SeekOriginAI",
           "target": "_blank"
         },
         {
@@ -482,7 +594,7 @@
         {
           "title": "Email",
           "icon": "RiMailLine",
-          "url": "mailto:contact@seekorigin.ai",
+          "url": "mailto:mryangsd@gmail.com",
           "target": "_self"
         }
       ]
@@ -491,11 +603,23 @@
       "items": [
         {
           "title": "Privacy Policy",
-          "url": "/privacy-policy"
+          "url": "/privacy-policy",
+          "target": "_self"
         },
         {
           "title": "Terms of Service",
-          "url": "/terms-of-service"
+          "url": "/terms-of-service",
+          "target": "_self"
+        },
+        {
+          "title": "Contact: contact@seekorigin.ai",
+          "url": "mailto:mryangsd@gmail.com",
+          "target": "_self"
+        },
+        {
+          "title": "Support: support@seekorigin.ai",
+          "url": "mailto:support@seekorigin.ai",
+          "target": "_self"
         }
       ]
     }

@@ -1,6 +1,6 @@
 "use client";
 
-import { BsMoonStars, BsSun } from "react-icons/bs";
+import { Moon, Sun } from "lucide-react";
 
 import { CacheKey } from "@/services/constant";
 import { cacheSet } from "@/lib/cache";
@@ -21,18 +21,14 @@ export default function () {
   return (
     <div className="flex items-center gap-x-2 px-2">
       {theme === "dark" ? (
-        <BsSun
-          className="cursor-pointer text-lg text-muted-foreground"
+        <Sun
+          className="cursor-pointer w-5 h-5 text-muted-foreground"
           onClick={() => handleThemeChange("light")}
-          width={80}
-          height={20}
         />
       ) : (
-        <BsMoonStars
-          className="cursor-pointer text-lg text-muted-foreground"
+        <Moon
+          className="cursor-pointer w-5 h-5 text-muted-foreground"
           onClick={() => handleThemeChange("dark")}
-          width={80}
-          height={20}
         />
       )}
     </div>

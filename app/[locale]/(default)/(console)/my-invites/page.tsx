@@ -1,4 +1,4 @@
-import { RiDiscordFill, RiEmotionSadFill, RiGithubFill } from "react-icons/ri";
+import { Frown, MessageCircle, Github } from "lucide-react";
 import { getAffiliateSummary, getUserAffiliates } from "@/models/affiliate";
 import { getOrdersByPaidEmail, getOrdersByUserUuid } from "@/models/order";
 import { getUserEmail, getUserUuid } from "@/services/user";
@@ -42,7 +42,7 @@ export default async function () {
       // no right
       return (
         <div className="text-center flex flex-col items-center justify-center h-full py-16 gap-4">
-          <RiEmotionSadFill className="w-8 h-8" />
+          <Frown className="w-8 h-8" />
           <span>{t("my_invites.no_orders")}</span>
         </div>
       );
@@ -60,14 +60,14 @@ export default async function () {
     if (!is_affiliate && !user.is_affiliate) {
       return (
         <div className="text-center flex flex-col items-center justify-center h-full py-16 gap-4">
-          <RiEmotionSadFill className="w-8 h-8" />
+          <Frown className="w-8 h-8" />
           <span>{t("my_invites.no_affiliates")}</span>
           <Link
             href="https://discord.gg/HQNnrzjZQS"
             target="_blank"
             className="flex items-center gap-1 font-semibold text-sm text-primary border border-primary rounded-md px-4 py-2"
           >
-            <RiDiscordFill className="text-xl" />
+            <MessageCircle className="w-5 h-5" />
             Discord
           </Link>
         </div>

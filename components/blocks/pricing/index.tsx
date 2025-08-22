@@ -14,10 +14,6 @@ import { toast } from "sonner";
 import { useAppContext } from "@/contexts/app";
 
 export default function Pricing({ pricing }: { pricing: PricingType }) {
-  if (pricing.disabled) {
-    return null;
-  }
-
   const { user, setShowSignModal } = useAppContext();
 
   const [group, setGroup] = useState(pricing.groups?.[0]?.name);
@@ -98,6 +94,10 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
       setIsLoading(false);
     }
   }, [pricing.items]);
+
+  if (pricing.disabled) {
+    return null;
+  }
 
   return (
     <section id={pricing.name} className="py-16">
