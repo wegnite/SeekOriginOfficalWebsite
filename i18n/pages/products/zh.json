@@ -1,0 +1,37 @@
+{
+  "products": {
+    "name": "products",
+    "title": "我们的数字产品",
+    "description": "探索我们创新的娱乐和社交媒体工具套件，专为现代数字体验而设计。",
+    "items": [
+      {
+        "title": "摩诃毗瑟挐：狮面人化身",
+        "description": "运用前沿动画技术，将传说中的化身栩栩如生地呈现的沉浸式动画电影。",
+        "label": "娱乐 • 动画",
+        "icon": "sparkles",
+        "url": "/showcase"
+      },
+      {
+        "title": "TikTok 评论生成器",
+        "description": "AI驱动的工具，创建引人入胜的病毒式评论，提升您的社交媒体影响力。",
+        "label": "社交媒体 • AI工具",
+        "icon": "brain",
+        "url": "/showcase"
+      },
+      {
+        "title": "数字内容平台",
+        "description": "用于跨多个渠道创建、管理和分发数字内容的综合平台。",
+        "label": "内容管理 • 平台",
+        "icon": "zap",
+        "url": "/showcase"
+      },
+      {
+        "title": "企业解决方案",
+        "description": "为数字化转型和内容自动化需求提供可扩展的商业解决方案。",
+        "label": "企业服务 • B2B",
+        "icon": "shield",
+        "url": "/contact"
+      }
+    ]
+  }
+}

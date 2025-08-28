@@ -1,0 +1,45 @@
+{
+  "docs": {
+    "name": "documentation",
+    "title": "Documentation",
+    "description": "Comprehensive guides and API documentation for our products and services.",
+    "items": [
+      {
+        "title": "Getting Started",
+        "description": "Learn the basics and get up and running quickly with our platform.",
+        "icon": "🚀",
+        "url": "#getting-started"
+      },
+      {
+        "title": "API Reference",
+        "description": "Complete API documentation with examples and best practices.",
+        "icon": "📖",
+        "url": "#api-reference"
+      },
+      {
+        "title": "Developer Guides",
+        "description": "In-depth tutorials and integration guides for developers.",
+        "icon": "👨‍💻",
+        "url": "#developer-guides"
+      },
+      {
+        "title": "SDKs & Libraries",
+        "description": "Official SDKs and libraries for popular programming languages.",
+        "icon": "📦",
+        "url": "#sdks-libraries"
+      },
+      {
+        "title": "Company Profile",
+        "description": "Learn more about our company, mission, and values.",
+        "icon": "🏢",
+        "url": "/docs/company-profile"
+      },
+      {
+        "title": "Support",
+        "description": "Get help and support from our community and team.",
+        "icon": "🤝",
+        "url": "#support"
+      }
+    ]
+  }
+}

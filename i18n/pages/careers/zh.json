@@ -1,0 +1,51 @@
+{
+  "careers": {
+    "name": "careers",
+    "title": "加入我们",
+    "description": "成为我们使命的一部分，创建塑造娱乐和社交媒体未来的创新数字产品。",
+    "items": [
+      {
+        "title": "前端开发工程师",
+        "description": "加入我们的开发团队，使用 React、Next.js 和 TypeScript 为我们的数字产品构建前沿用户界面。",
+        "label": "全职 • 远程",
+        "icon": "💻",
+        "url": "/contact"
+      },
+      {
+        "title": "AI/机器学习工程师",
+        "description": "开发机器学习算法和AI模型，为我们的社交媒体工具和内容生成功能提供动力。",
+        "label": "全职 • 混合办公",
+        "icon": "🤖",
+        "url": "/contact"
+      },
+      {
+        "title": "3D动画师",
+        "description": "为我们的娱乐项目创建令人惊叹的3D动画和视觉效果，包括摩诃毗瑟挐电影。",
+        "label": "合同 • 远程",
+        "icon": "🎨",
+        "url": "/contact"
+      },
+      {
+        "title": "产品经理",
+        "description": "领导我们数字娱乐和社交媒体产品套件的产品策略和路线图规划。",
+        "label": "全职 • 现场办公",
+        "icon": "📊",
+        "url": "/contact"
+      },
+      {
+        "title": "DevOps工程师",
+        "description": "构建和维护可扩展的基础设施，支持我们不断增长的用户群体和产品组合。",
+        "label": "全职 • 远程",
+        "icon": "⚙️",
+        "url": "/contact"
+      },
+      {
+        "title": "内容策略师",
+        "description": "为我们跨多个数字渠道的产品开发内容策略和营销活动。",
+        "label": "兼职 • 远程",
+        "icon": "📝",
+        "url": "/contact"
+      }
+    ]
+  }
+}

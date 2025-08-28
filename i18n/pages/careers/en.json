@@ -1,0 +1,51 @@
+{
+  "careers": {
+    "name": "careers",
+    "title": "Join Our Team",
+    "description": "Be part of our mission to create innovative digital products that shape the future of entertainment and social media.",
+    "items": [
+      {
+        "title": "Frontend Developer",
+        "description": "Join our development team to build cutting-edge user interfaces for our digital products using React, Next.js, and TypeScript.",
+        "label": "Full-time • Remote",
+        "icon": "💻",
+        "url": "/contact"
+      },
+      {
+        "title": "AI/ML Engineer",
+        "description": "Work on machine learning algorithms and AI models that power our social media tools and content generation features.",
+        "label": "Full-time • Hybrid",
+        "icon": "🤖",
+        "url": "/contact"
+      },
+      {
+        "title": "3D Animation Artist",
+        "description": "Create stunning 3D animations and visual effects for our entertainment projects, including the Mahavatar Narsimha film.",
+        "label": "Contract • Remote",
+        "icon": "🎨",
+        "url": "/contact"
+      },
+      {
+        "title": "Product Manager",
+        "description": "Lead product strategy and roadmap for our suite of digital entertainment and social media products.",
+        "label": "Full-time • Onsite",
+        "icon": "📊",
+        "url": "/contact"
+      },
+      {
+        "title": "DevOps Engineer",
+        "description": "Build and maintain scalable infrastructure to support our growing user base and product portfolio.",
+        "label": "Full-time • Remote",
+        "icon": "⚙️",
+        "url": "/contact"
+      },
+      {
+        "title": "Content Strategist",
+        "description": "Develop content strategies and marketing campaigns for our products across multiple digital channels.",
+        "label": "Part-time • Remote",
+        "icon": "📝",
+        "url": "/contact"
+      }
+    ]
+  }
+}

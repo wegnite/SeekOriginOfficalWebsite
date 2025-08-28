@@ -32,3 +32,15 @@ export interface PricingPage {
 export interface ShowcasePage {
   showcase?: Section;
 }
+
+export interface DocsPage {
+  docs?: Section;
+}
+
+export interface ProductsPage {
+  products?: Section;
+}
+
+export interface CareersPage {
+  careers?: Section;
+}

@@ -1,0 +1,37 @@
+{
+  "products": {
+    "name": "products",
+    "title": "Our Digital Products",
+    "description": "Discover our innovative suite of entertainment and social media tools designed for modern digital experiences.",
+    "items": [
+      {
+        "title": "Mahavatar Narsimha",
+        "description": "An immersive animated film bringing the legendary avatar to life with cutting-edge animation technology.",
+        "label": "Entertainment • Animation",
+        "icon": "sparkles",
+        "url": "/showcase"
+      },
+      {
+        "title": "TikTok Comment Generator",
+        "description": "AI-powered tool for creating engaging, viral comments that boost your social media presence.",
+        "label": "Social Media • AI Tool",
+        "icon": "brain",
+        "url": "/showcase"
+      },
+      {
+        "title": "Digital Content Platform",
+        "description": "Comprehensive platform for creating, managing, and distributing digital content across multiple channels.",
+        "label": "Content Management • Platform",
+        "icon": "zap",
+        "url": "/showcase"
+      },
+      {
+        "title": "Enterprise Solutions", 
+        "description": "Scalable business solutions for digital transformation and content automation needs.",
+        "label": "Enterprise • B2B",
+        "icon": "shield",
+        "url": "/contact"
+      }
+    ]
+  }
+}

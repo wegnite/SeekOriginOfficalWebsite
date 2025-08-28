@@ -8,6 +8,7 @@ import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations();
+  const baseUrl = process.env.NEXT_PUBLIC_WEB_URL || 'https://seekorigin.ai';
 
   return {
     title: {
@@ -16,6 +17,32 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     description: t("metadata.description"),
     keywords: t("metadata.keywords"),
+    // 重要：允许搜索引擎索引法律页面
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+    // 添加 Open Graph 元数据
+    openGraph: {
+      title: t("metadata.title"),
+      description: t("metadata.description"),
+      url: baseUrl,
+      siteName: 'Seek Origin AI',
+      type: 'website',
+    },
+    // 添加 Twitter Card 元数据
+    twitter: {
+      card: 'summary_large_image',
+      title: t("metadata.title"),
+      description: t("metadata.description"),
+    },
   };
 }
 
